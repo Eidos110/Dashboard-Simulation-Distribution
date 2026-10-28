@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Data & output yang dapat diregenerasi ulang oleh pipeline
+data/raw/
+data/processed/
+
+# Environment & IDE
+.env
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Dokumen pribadi
+cv/
+
+# Test & tooling cache
+.pytest_cache/
